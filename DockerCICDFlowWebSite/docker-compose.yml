@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  dockercicdflowwebsite:
+    image: dockercicdflowwebsite
+    build:
+      context: ./DockerCICDFlowWebSite
+      dockerfile: Dockerfile
